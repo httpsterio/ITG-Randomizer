@@ -1,17 +1,17 @@
 const CACHE = 'itg-picker-v3';
 const REQUIRED = [
-  '/',
-  '/index.html',
-  '/app.js',
-  '/style.css',
-  '/manifest.json',
-  '/songs.json',
-  '/tick.wav',
-  '/select.wav',
-  '/icon-192.png',
-  '/icon-512.png',
+  './',
+  './index.html',
+  './app.js',
+  './style.css',
+  './manifest.json',
+  './songs.json',
+  './tick.wav',
+  './select.wav',
+  './icon-192.png',
+  './icon-512.png',
 ];
-const OPTIONAL = ['/energizer.wav'];
+const OPTIONAL = ['./energizer.wav'];
 
 self.addEventListener('install', e => {
   e.waitUntil((async () => {

@@ -1,7 +1,7 @@
 {
   "name": "ITG Randomizer",
   "short_name": "Randomizer",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#000000",

@@ -114,10 +114,12 @@ function rebuildPool() {
         interleaved.push(energizerSong);
       }
       pool = interleaved;
+      randomizeBtn.textContent = 'ENERGIZE';
       return;
     }
   }
   pool = filtered;
+  randomizeBtn.textContent = 'RANDOMIZE';
 }
 
 // ── Slot elements ──
