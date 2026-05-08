@@ -1,0 +1,3468 @@
+[
+  {
+    "pack": "In The Groove",
+    "title": "Anubis",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 7
+      },
+      {
+        "name": "Easy",
+        "rating": 5
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Bend Your Mind",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 6
+      },
+      {
+        "name": "Medium",
+        "rating": 7
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Boogie Down",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Bouff",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 5
+      },
+      {
+        "name": "Medium",
+        "rating": 7
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Bubble Dancer",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Changes",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Charlene",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 11
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Crazy",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "DJ Party",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Da Roots (Folk Mix)",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Dawn",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Delirium",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Challenge",
+        "rating": 12
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Disconnected",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Disconnected -Hyper-",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Disconnected -Mobius-",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Do U Love Me",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 6
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Don't Promise Me",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 6
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Dreams of Passion",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 5
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Drifting Away",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Driving Force Classical",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Euphoria",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Challenge",
+        "rating": 12
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Fly Away",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Fly With Me",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Flying High",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Hand of Time",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Don't Promise Me ~Happiness~",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Hardcore of the North",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Challenge",
+        "rating": 12
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Hip Hop Jam",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 6
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Hybrid",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "I Think I Like That Sound",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "I'll Get There Anyway",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Infection",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Challenge",
+        "rating": 11
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "July",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Challenge",
+        "rating": 11
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Kagami",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Kiss Me Red",
+    "difficulties": [
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Land of the Rising Sun",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Lemmings on the Run",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Let Me Be the One",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 6
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Let My Love Go Blind",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Mellow",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Mouth",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "My Favourite Game",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 6
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Mythology",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 7
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Challenge",
+        "rating": 11
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "No 1 Nation",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 7
+      },
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Normal",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Not Worth the Paper",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 6
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Oasis",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "On a Day Like Today",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "PA Theme",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 6
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Pandemonium",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 5
+      },
+      {
+        "name": "Medium",
+        "rating": 9
+      },
+      {
+        "name": "Hard",
+        "rating": 11
+      },
+      {
+        "name": "Challenge",
+        "rating": 13
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Perfect",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Queen of Light",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "ROM-eo & Juli8",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Remember December",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Solina",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Tell",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Challenge",
+        "rating": 12
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Tension",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "The Beginning",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 11
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "The Game",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Torn",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Touch Me",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Tough Enough",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Turn It On",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Utopia",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 11
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "VerTex",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 6
+      },
+      {
+        "name": "Medium",
+        "rating": 7
+      },
+      {
+        "name": "Hard",
+        "rating": 10
+      },
+      {
+        "name": "Challenge",
+        "rating": 12
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Walking on Fire",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Which MC Was That",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "While Tha Rekkid Spinz",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Why Me",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 6
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Xuxa",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Challenge",
+        "rating": 11
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove",
+    "title": "Zodiac",
+    "difficulties": [
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "!",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Challenge",
+        "rating": 12
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Agent Blatant",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 5
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Amore",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Baby Baby",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Baby Don't You Want Me",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Birdie",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Bloodrush",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 8
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Challenge",
+        "rating": 12
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Bumble Bee",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Clockwork Genesis",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 5
+      },
+      {
+        "name": "Medium",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 11
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Cryosleep",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "D-Code",
+    "difficulties": [
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Destiny",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 11
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Determinator",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 12
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Disconnected Disco",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Energizer",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 5
+      },
+      {
+        "name": "Medium",
+        "rating": 9
+      },
+      {
+        "name": "Hard",
+        "rating": 10
+      },
+      {
+        "name": "Challenge",
+        "rating": 12
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Fleadh Uncut",
+    "difficulties": [
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Funk Factory",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Get Happy",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Go 60 Go",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 7
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Challenge",
+        "rating": 12
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Habanera 1",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Hardcore Symphony",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 7
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Challenge",
+        "rating": 11
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "High",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Hillbilly Hardcore",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Hispanic Panic",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Holy Guacamole",
+    "difficulties": [
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Hustle Beach",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Incognito",
+    "difficulties": [
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Ize Pie",
+    "difficulties": [
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "July -Euromix-",
+    "difficulties": [
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Know Your Enemy",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Life of a Butterfly",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Lipstick Kiss",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Liquid Moon",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Little Kitty Mine",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Monolith",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Easy",
+        "rating": 5
+      },
+      {
+        "name": "Medium",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 11
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Music Pleeze",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "My Life Is So Crazy",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "No Princess",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "One False Move",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Out Of The Dark",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 5
+      },
+      {
+        "name": "Medium",
+        "rating": 7
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Pick Me Up & Tango",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Psalm Pilot",
+    "difficulties": [
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Reactor",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Renaissance",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Ride the Bass",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Robotix",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Challenge",
+        "rating": 11
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Soapy Bubble",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Spaceman",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Spacy Crazy Girl",
+    "difficulties": [
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Spin Chicken",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Summer Speedy Mix",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Challenge",
+        "rating": 13
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Summer in Belize",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Sunshine",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Sweet World",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Temple of Boom",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "The Message",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "This is Rock & Roll",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Tribal Style",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Twilight",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 6
+      },
+      {
+        "name": "Medium",
+        "rating": 7
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Typical Tropical",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Medium",
+        "rating": 5
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "VerTex^2",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 5
+      },
+      {
+        "name": "Medium",
+        "rating": 8
+      },
+      {
+        "name": "Hard",
+        "rating": 11
+      },
+      {
+        "name": "Challenge",
+        "rating": 13
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Visible Noise",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 9
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Vorsprung Durch Techno",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Wake Up",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 4
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "Wanna Do ~Hardhouse Mix~",
+    "difficulties": [
+      {
+        "name": "Hard",
+        "rating": 8
+      },
+      {
+        "name": "Medium",
+        "rating": 6
+      },
+      {
+        "name": "Easy",
+        "rating": 3
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      },
+      {
+        "name": "Challenge",
+        "rating": 10
+      }
+    ]
+  },
+  {
+    "pack": "In The Groove 2",
+    "title": "We Know What To Do",
+    "difficulties": [
+      {
+        "name": "Easy",
+        "rating": 2
+      },
+      {
+        "name": "Medium",
+        "rating": 4
+      },
+      {
+        "name": "Hard",
+        "rating": 7
+      },
+      {
+        "name": "Challenge",
+        "rating": 9
+      },
+      {
+        "name": "Beginner",
+        "rating": 1
+      }
+    ]
+  }
+]
