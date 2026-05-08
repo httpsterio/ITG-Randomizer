@@ -132,11 +132,13 @@ function renderWheel() {
     const absd = Math.abs(d);
     const scale = Math.max(0.3, 1 - absd * 0.13);
     const opacity = Math.max(0, 1 - absd * 0.2);
+    // Arc: center items shift left, edges stay flush right
+    const xShift = (1 - absd / (half + 0.5)) * -28;
 
     el.textContent = song.title;
     el.style.top = `${centerY + y - WHEEL_CONFIG.slotHeight / 2}px`;
     el.style.height = `${WHEEL_CONFIG.slotHeight}px`;
-    el.style.transform = `scaleX(${scale}) scaleY(${scale})`;
+    el.style.transform = `translateX(${xShift}px) scaleX(${scale}) scaleY(${scale})`;
     el.style.opacity = opacity;
     el.classList.toggle('center-slot', d === 0);
   }
