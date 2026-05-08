@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#000000">
+  <title>ITG Song Picker</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="loading">
+      <div class="loading-spinner"></div>
+      <div class="loading-text">Loading...</div>
+    </div>
+
+    <div id="main" class="hidden">
+      <div id="wheel-container">
+        <div id="wheel-bezel">
+          <div id="wheel-track">
+            <div id="highlight-band"></div>
+            <div id="wheel-slots"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="result-area">
+        <div id="result-title"></div>
+        <div id="result-diff"></div>
+      </div>
+
+      <div id="controls">
+        <div class="stepper-group">
+          <span class="stepper-label">MIN</span>
+          <div class="stepper">
+            <button class="step-btn" id="min-dec">−</button>
+            <span class="step-val" id="min-val">1</span>
+            <button class="step-btn" id="min-inc">+</button>
+          </div>
+        </div>
+        <div class="stepper-group">
+          <span class="stepper-label">MAX</span>
+          <div class="stepper">
+            <button class="step-btn" id="max-dec">−</button>
+            <span class="step-val" id="max-val">13</span>
+            <button class="step-btn" id="max-inc">+</button>
+          </div>
+        </div>
+      </div>
+
+      <button id="randomize-btn" disabled>RANDOMIZE</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js');
+    }
+  </script>
+</body>
+</html>
