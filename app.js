@@ -16,6 +16,7 @@ const ENERGIZER_TITLE = 'Energizer';
 let songs = [];
 let tickBuffer = null;
 let selectBuffer = null;
+let energizerBuffer = null;
 let audioCtx = null;
 
 let minDiff = 1;
@@ -48,14 +49,16 @@ const themeToggle = document.getElementById('theme-toggle');
 
 // ── Boot ──
 async function init() {
-  const [songsData, tickArr, selectArr] = await Promise.all([
+  const [songsData, tickArr, selectArr, energizerArr] = await Promise.all([
     fetch('songs.json').then(r => r.json()),
     fetch('tick.wav').then(r => r.arrayBuffer()),
     fetch('select.wav').then(r => r.arrayBuffer()),
+    fetch('energizer.wav').then(r => r.ok ? r.arrayBuffer() : null).catch(() => null),
   ]);
   songs = songsData;
   window._tickArr = tickArr;
   window._selectArr = selectArr;
+  window._energizerArr = energizerArr;
 
   energizerSong = songs.find(s => s.title === ENERGIZER_TITLE) || null;
   energizerRatings = energizerSong ? energizerSong.difficulties.map(d => d.rating) : [];
@@ -82,6 +85,11 @@ async function ensureAudio() {
     audioCtx.decodeAudioData(window._tickArr.slice(0)),
     audioCtx.decodeAudioData(window._selectArr.slice(0)),
   ]);
+  if (window._energizerArr) {
+    try {
+      energizerBuffer = await audioCtx.decodeAudioData(window._energizerArr.slice(0));
+    } catch {}
+  }
 }
 
 function playSound(buf) {
@@ -292,7 +300,8 @@ function onLand(song, diff) {
   randomizeBtn.classList.remove('spinning');
   randomizeBtn.disabled = false;
 
-  playSound(selectBuffer);
+  const isEnergizer = song.title === ENERGIZER_TITLE;
+  playSound(isEnergizer && energizerBuffer ? energizerBuffer : selectBuffer);
 
   highlightBand.classList.remove('flash');
   void highlightBand.offsetWidth;

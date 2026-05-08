@@ -11,9 +11,6 @@
   --result-glow: rgba(160, 210, 255, 0.7);
   --diff-color: rgba(160, 210, 255, 0.95);
   --label-color: rgba(150, 200, 255, 0.55);
-  --step-border: rgba(100, 160, 255, 0.3);
-  --step-bg: rgba(20, 40, 100, 0.5);
-  --step-active: rgba(80, 140, 255, 0.35);
   --btn-grad-top: #3a7bd0;
   --btn-grad-mid: #1a3f8a;
   --btn-grad-bot: #265eb0;
@@ -35,9 +32,6 @@ body.red-theme {
   --result-glow: rgba(255, 170, 180, 0.7);
   --diff-color: rgba(255, 170, 180, 0.95);
   --label-color: rgba(255, 160, 170, 0.55);
-  --step-border: rgba(255, 100, 110, 0.35);
-  --step-bg: rgba(100, 20, 30, 0.5);
-  --step-active: rgba(255, 100, 110, 0.4);
   --btn-grad-top: #d65050;
   --btn-grad-mid: #7a1820;
   --btn-grad-bot: #b03038;
@@ -277,9 +271,8 @@ html, body {
 /* ── Controls ── */
 #controls {
   display: flex;
-  justify-content: center;
-  gap: 36px;
-  padding: 10px 20px;
+  justify-content: space-between;
+  padding: 10px 22px;
 }
 
 .stepper-group {
@@ -306,8 +299,7 @@ html, body {
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  border: 1px solid var(--step-border);
-  background: var(--step-bg);
+  border: 1px solid rgba(0, 0, 0, 0.55);
   color: #fff;
   font-size: 22px;
   line-height: 1;
@@ -315,12 +307,55 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background 0.1s, transform 0.1s;
   touch-action: manipulation;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+  background:
+    linear-gradient(180deg,
+      rgba(255, 255, 255, 0.35) 0%,
+      rgba(255, 255, 255, 0.08) 48%,
+      rgba(0, 0, 0, 0.22) 52%,
+      rgba(255, 255, 255, 0.12) 100%),
+    linear-gradient(180deg, var(--btn-grad-top) 0%, var(--btn-grad-mid) 50%, var(--btn-grad-bot) 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.45),
+    inset 0 0 0 1px var(--btn-inset),
+    0 1px 3px rgba(0, 0, 0, 0.5);
+  transition: transform 0.1s;
+}
+
+@media (hover: hover) {
+  .step-btn:hover {
+    background:
+      linear-gradient(180deg,
+        rgba(255, 255, 255, 0.45) 0%,
+        rgba(255, 255, 255, 0.10) 48%,
+        rgba(0, 0, 0, 0.22) 52%,
+        rgba(255, 255, 255, 0.14) 100%),
+      linear-gradient(180deg, #ffb050 0%, #b04400 50%, #db6c1c 100%);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 230, 180, 0.75),
+      inset 0 -1px 0 rgba(0, 0, 0, 0.45),
+      inset 0 0 0 1px rgba(255, 200, 120, 0.5),
+      0 0 12px rgba(255, 160, 60, 0.5),
+      0 1px 3px rgba(0, 0, 0, 0.5);
+  }
 }
 
 .step-btn:active {
-  background: var(--step-active);
+  background:
+    linear-gradient(180deg,
+      rgba(255, 255, 255, 0.45) 0%,
+      rgba(255, 255, 255, 0.10) 48%,
+      rgba(0, 0, 0, 0.22) 52%,
+      rgba(255, 255, 255, 0.14) 100%),
+    linear-gradient(180deg, #ffb050 0%, #b04400 50%, #db6c1c 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 230, 180, 0.75),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.45),
+    inset 0 0 0 1px rgba(255, 200, 120, 0.5),
+    0 0 14px rgba(255, 160, 60, 0.65),
+    0 1px 3px rgba(0, 0, 0, 0.5);
   transform: scale(0.92);
 }
 

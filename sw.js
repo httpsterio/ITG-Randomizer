@@ -1,5 +1,5 @@
-const CACHE = 'itg-picker-v1';
-const ASSETS = [
+const CACHE = 'itg-picker-v3';
+const REQUIRED = [
   '/',
   '/index.html',
   '/app.js',
@@ -11,11 +11,15 @@ const ASSETS = [
   '/icon-192.png',
   '/icon-512.png',
 ];
+const OPTIONAL = ['/energizer.wav'];
 
 self.addEventListener('install', e => {
-  e.waitUntil(
-    caches.open(CACHE).then(c => c.addAll(ASSETS)).then(() => self.skipWaiting())
-  );
+  e.waitUntil((async () => {
+    const cache = await caches.open(CACHE);
+    await cache.addAll(REQUIRED);
+    await Promise.all(OPTIONAL.map(url => cache.add(url).catch(() => {})));
+    self.skipWaiting();
+  })());
 });
 
 self.addEventListener('activate', e => {

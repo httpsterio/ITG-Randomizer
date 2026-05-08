@@ -1,6 +1,6 @@
 {
-  "name": "ITG Song Picker",
-  "short_name": "SongPicker",
+  "name": "ITG Randomizer",
+  "short_name": "Randomizer",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
