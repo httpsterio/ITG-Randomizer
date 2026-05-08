@@ -1,3 +1,51 @@
+:root {
+  --bg: #07091a;
+  --bg-fade: rgba(7, 9, 26, 0);
+  --bezel-edge: #060b18;
+  --bezel-mid: #0e1d3a;
+  --band-edge: rgba(60, 130, 255, 0.12);
+  --band-mid: rgba(100, 170, 255, 0.22);
+  --band-border: rgba(120, 180, 255, 0.25);
+  --band-flash: rgba(220, 240, 255, 0.6);
+  --center-glow: rgba(180, 220, 255, 0.7);
+  --result-glow: rgba(160, 210, 255, 0.7);
+  --diff-color: rgba(160, 210, 255, 0.95);
+  --label-color: rgba(150, 200, 255, 0.55);
+  --step-border: rgba(100, 160, 255, 0.3);
+  --step-bg: rgba(20, 40, 100, 0.5);
+  --step-active: rgba(80, 140, 255, 0.35);
+  --btn-grad-top: #3a7bd0;
+  --btn-grad-mid: #1a3f8a;
+  --btn-grad-bot: #265eb0;
+  --btn-inset: rgba(120, 180, 255, 0.22);
+  --toggle-color: rgba(150, 200, 255, 0.5);
+  --toggle-color-hover: rgba(180, 220, 255, 0.95);
+}
+
+body.red-theme {
+  --bg: #160407;
+  --bg-fade: rgba(22, 4, 7, 0);
+  --bezel-edge: #170304;
+  --bezel-mid: #3c0d12;
+  --band-edge: rgba(255, 60, 80, 0.14);
+  --band-mid: rgba(255, 100, 120, 0.26);
+  --band-border: rgba(255, 130, 140, 0.3);
+  --band-flash: rgba(255, 220, 220, 0.6);
+  --center-glow: rgba(255, 200, 200, 0.7);
+  --result-glow: rgba(255, 170, 180, 0.7);
+  --diff-color: rgba(255, 170, 180, 0.95);
+  --label-color: rgba(255, 160, 170, 0.55);
+  --step-border: rgba(255, 100, 110, 0.35);
+  --step-bg: rgba(100, 20, 30, 0.5);
+  --step-active: rgba(255, 100, 110, 0.4);
+  --btn-grad-top: #d65050;
+  --btn-grad-mid: #7a1820;
+  --btn-grad-bot: #b03038;
+  --btn-inset: rgba(255, 130, 140, 0.22);
+  --toggle-color: rgba(255, 160, 170, 0.55);
+  --toggle-color-hover: rgba(255, 210, 210, 0.95);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,7 +56,7 @@
 html, body {
   width: 100%;
   height: 100%;
-  background: #07091a;
+  background: var(--bg);
   color: #fff;
   font-family: 'Arial', sans-serif;
   overflow: hidden;
@@ -21,7 +69,31 @@ html, body {
   height: 100dvh;
   max-width: 480px;
   margin: 0 auto;
-  background: #07091a;
+  background: var(--bg);
+  position: relative;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+  border: none;
+  color: var(--toggle-color);
+  font-family: inherit;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 6px 12px;
+  z-index: 50;
+  touch-action: manipulation;
+  transition: color 0.15s;
+}
+
+.theme-toggle:hover {
+  color: var(--toggle-color-hover);
 }
 
 /* ── Loading ── */
@@ -75,7 +147,7 @@ html, body {
   position: relative;
   width: 100%;
   border-radius: 50% / 7%;
-  background: linear-gradient(180deg, #060b18 0%, #0e1d3a 28%, #0e1d3a 72%, #060b18 100%);
+  background: linear-gradient(180deg, var(--bezel-edge) 0%, var(--bezel-mid) 28%, var(--bezel-mid) 72%, var(--bezel-edge) 100%);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -94,11 +166,11 @@ html, body {
 }
 #wheel-bezel::before {
   top: 0;
-  background: linear-gradient(to bottom, #07091a 0%, rgba(7,9,26,0) 100%);
+  background: linear-gradient(to bottom, var(--bg) 0%, var(--bg-fade) 100%);
 }
 #wheel-bezel::after {
   bottom: 0;
-  background: linear-gradient(to top, #07091a 0%, rgba(7,9,26,0) 100%);
+  background: linear-gradient(to top, var(--bg) 0%, var(--bg-fade) 100%);
 }
 
 #wheel-track {
@@ -116,13 +188,13 @@ html, body {
   height: 34px;
   background: linear-gradient(90deg,
     transparent 0%,
-    rgba(60,130,255,0.12) 30%,
-    rgba(100,170,255,0.22) 70%,
-    rgba(60,130,255,0.12) 90%,
+    var(--band-edge) 30%,
+    var(--band-mid) 70%,
+    var(--band-edge) 90%,
     transparent 100%
   );
-  border-top: 1px solid rgba(120,180,255,0.25);
-  border-bottom: 1px solid rgba(120,180,255,0.25);
+  border-top: 1px solid var(--band-border);
+  border-bottom: 1px solid var(--band-border);
   z-index: 2;
   pointer-events: none;
 }
@@ -132,8 +204,8 @@ html, body {
 }
 
 @keyframes band-flash {
-  0%   { background: linear-gradient(90deg, transparent, rgba(220,240,255,0.6) 60%, transparent); }
-  100% { background: linear-gradient(90deg, transparent, rgba(60,130,255,0.12) 60%, transparent); }
+  0%   { background: linear-gradient(90deg, transparent, var(--band-flash) 60%, transparent); }
+  100% { background: linear-gradient(90deg, transparent, var(--band-edge) 60%, transparent); }
 }
 
 #wheel-slots {
@@ -161,7 +233,7 @@ html, body {
 }
 
 .wheel-slot.center-slot {
-  text-shadow: 0 0 14px rgba(180,220,255,0.7), 0 1px 3px rgba(0,0,0,0.9);
+  text-shadow: 0 0 14px var(--center-glow), 0 1px 3px rgba(0,0,0,0.9);
 }
 
 /* ── Result area ── */
@@ -183,13 +255,13 @@ html, body {
   text-align: center;
   opacity: 0;
   transition: opacity 0.4s ease;
-  text-shadow: 0 0 28px rgba(160,210,255,0.7), 0 2px 6px rgba(0,0,0,0.9);
+  text-shadow: 0 0 28px var(--result-glow), 0 2px 6px rgba(0,0,0,0.9);
   line-height: 1.1;
 }
 
 #result-diff {
   font-size: 14px;
-  color: rgba(160,210,255,0.95);
+  color: var(--diff-color);
   text-align: center;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -220,7 +292,7 @@ html, body {
 .stepper-label {
   font-size: 11px;
   letter-spacing: 2px;
-  color: rgba(150,200,255,0.55);
+  color: var(--label-color);
   text-transform: uppercase;
 }
 
@@ -234,8 +306,8 @@ html, body {
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  border: 1px solid rgba(100,160,255,0.3);
-  background: rgba(20,40,100,0.5);
+  border: 1px solid var(--step-border);
+  background: var(--step-bg);
   color: #fff;
   font-size: 22px;
   line-height: 1;
@@ -248,7 +320,7 @@ html, body {
 }
 
 .step-btn:active {
-  background: rgba(80,140,255,0.35);
+  background: var(--step-active);
   transform: scale(0.92);
 }
 
@@ -281,11 +353,11 @@ html, body {
       rgba(255, 255, 255, 0.08) 48%,
       rgba(0, 0, 0, 0.22) 52%,
       rgba(255, 255, 255, 0.12) 100%),
-    linear-gradient(180deg, #3a7bd0 0%, #1a3f8a 50%, #265eb0 100%);
+    linear-gradient(180deg, var(--btn-grad-top) 0%, var(--btn-grad-mid) 50%, var(--btn-grad-bot) 100%);
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.55),
     inset 0 -1px 0 rgba(0, 0, 0, 0.45),
-    inset 0 0 0 1px rgba(120, 180, 255, 0.22),
+    inset 0 0 0 1px var(--btn-inset),
     0 2px 8px rgba(0, 0, 0, 0.5);
   transition: transform 0.1s;
 }

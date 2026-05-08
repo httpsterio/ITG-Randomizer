@@ -10,6 +10,7 @@ const WHEEL_CONFIG = {
 
 const DIFF_NAMES = { Beginner: 'Novice', Easy: 'Easy', Medium: 'Medium', Hard: 'Hard', Challenge: 'Expert' };
 const mapDiff = name => DIFF_NAMES[name] ?? name;
+const ENERGIZER_TITLE = 'Energizer';
 
 // ── State ──
 let songs = [];
@@ -20,6 +21,9 @@ let audioCtx = null;
 let minDiff = 1;
 let maxDiff = 13;
 let pool = [];
+let redTheme = false;
+let energizerSong = null;
+let energizerRatings = [];
 
 let wheelPos = 0;
 let spinning = false;
@@ -40,6 +44,7 @@ const resultDiff  = document.getElementById('result-diff');
 const randomizeBtn = document.getElementById('randomize-btn');
 const minValEl    = document.getElementById('min-val');
 const maxValEl    = document.getElementById('max-val');
+const themeToggle = document.getElementById('theme-toggle');
 
 // ── Boot ──
 async function init() {
@@ -51,6 +56,9 @@ async function init() {
   songs = songsData;
   window._tickArr = tickArr;
   window._selectArr = selectArr;
+
+  energizerSong = songs.find(s => s.title === ENERGIZER_TITLE) || null;
+  energizerRatings = energizerSong ? energizerSong.difficulties.map(d => d.rating) : [];
 
   rebuildPool();
   buildSlotElements();
@@ -86,7 +94,22 @@ function playSound(buf) {
 
 // ── Pool ──
 function rebuildPool() {
-  pool = songs.filter(s => s.difficulties.some(d => d.rating >= minDiff && d.rating <= maxDiff));
+  const filtered = songs.filter(s => s.difficulties.some(d => d.rating >= minDiff && d.rating <= maxDiff));
+
+  const energizerInRange = energizerRatings.some(r => r >= minDiff && r <= maxDiff);
+  if (redTheme && energizerSong && energizerInRange) {
+    const others = filtered.filter(s => s.title !== ENERGIZER_TITLE);
+    if (others.length > 0) {
+      const interleaved = [];
+      for (const s of others) {
+        interleaved.push(s);
+        interleaved.push(energizerSong);
+      }
+      pool = interleaved;
+      return;
+    }
+  }
+  pool = filtered;
 }
 
 // ── Slot elements ──
@@ -319,6 +342,15 @@ randomizeBtn.addEventListener('click', () => {
     return;
   }
   startSpin();
+});
+
+themeToggle.addEventListener('click', () => {
+  if (spinning) return;
+  redTheme = !redTheme;
+  document.body.classList.toggle('red-theme', redTheme);
+  themeToggle.textContent = redTheme ? 'Pls no Energizer!' : 'Energizer?';
+  rebuildPool();
+  renderWheel();
 });
 
 window.addEventListener('resize', () => { if (!spinning) renderWheel(); });
