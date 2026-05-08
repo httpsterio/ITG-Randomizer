@@ -3,9 +3,9 @@ const WHEEL_CONFIG = {
   spinUpFrames: 25,    // frames to reach max speed
   minSpinSlots: 40,    // minimum slots to travel (not pool loops — fixed time)
   decelFrames: 50,
-  MIN_TICK_MS: 60,    // minimum ms between tick sounds
+  MIN_TICK_MS: 60,     // minimum ms between tick sounds
   visibleSlots: 11,    // must be odd
-  slotHeight: 44,      // px, matches highlight-band height
+  slotHeight: 34,      // px, matches highlight-band height
 };
 
 const DIFF_NAMES = { Beginner: 'Novice', Easy: 'Easy', Medium: 'Medium', Hard: 'Hard', Challenge: 'Expert' };
@@ -107,7 +107,7 @@ function buildSlotElements() {
 function slotY(trackHeight, d) {
   const half = Math.floor(N / 2);
   const t = d / (half + 0.5); // -1..1
-  return Math.sin(t * Math.PI * 0.45) * (trackHeight * 0.46);
+  return Math.sin(t * Math.PI * 0.45) * (trackHeight * 0.36);
 }
 
 function renderWheel() {
@@ -130,10 +130,10 @@ function renderWheel() {
     const song = pool[poolIdx];
     const y = slotY(trackHeight, d);
     const absd = Math.abs(d);
-    const scale = Math.max(0.3, 1 - absd * 0.13);
+    const scale = Math.max(0.2, 1 - absd * 0.17);
     const opacity = Math.max(0, 1 - absd * 0.2);
-    // Arc: center items shift left, edges stay flush right
-    const xShift = (1 - absd / (half + 0.5)) * -28;
+    // Power arc: steep drop from center so neighbours quickly veer right
+    const xShift = Math.pow(Math.max(0, 1 - absd / half), 2.5) * -75;
 
     el.textContent = song.title;
     el.style.top = `${centerY + y - WHEEL_CONFIG.slotHeight / 2}px`;
@@ -141,6 +141,7 @@ function renderWheel() {
     el.style.transform = `translateX(${xShift}px) scaleX(${scale}) scaleY(${scale})`;
     el.style.opacity = opacity;
     el.classList.toggle('center-slot', d === 0);
+
   }
 }
 
