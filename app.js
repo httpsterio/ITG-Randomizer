@@ -268,7 +268,7 @@ async function startSpin() {
   const eligible = Object.entries(targetSong.difficulties)
     .filter(([, rating]) => rating >= minDiff && rating <= maxDiff)
     .map(([name, rating]) => ({ name, rating }));
-  const targetDiff = eligible[Math.floor(Math.random() * eligible.length)];
+  const targetDiff = eligible.reduce((a, b) => (b.rating > a.rating ? b : a));
 
   hideResult();
   spinning = true;
