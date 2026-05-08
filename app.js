@@ -111,6 +111,18 @@ function slotY(trackHeight, d) {
   return Math.sin(t * Math.PI * 0.45) * (trackHeight * 0.36);
 }
 
+// Canvas-based text measurement — element scrollWidth can't be used here
+// because wheel-slot fills the container width, so scrollWidth always
+// equals clientWidth regardless of actual text length.
+const measureCtx = document.createElement('canvas').getContext('2d');
+function measureTitleWidth(text, fontSizePx) {
+  measureCtx.font = `italic bold ${fontSizePx}px Arial, sans-serif`;
+  return measureCtx.measureText(text).width;
+}
+
+const CENTER_FONT_MAX = 36;
+const CENTER_FONT_MIN = 22;
+
 function renderWheel() {
   const trackHeight = slotsEl.offsetHeight || 520;
   const centerY = trackHeight / 2;
@@ -144,13 +156,15 @@ function renderWheel() {
     el.classList.toggle('center-slot', d === 0);
 
     if (d === 0) {
-      const maxWidth = wheelContainer.clientWidth - 44;
-      el.style.fontSize = '32px';
-      if (el.scrollWidth > maxWidth) {
-        while (el.scrollWidth > maxWidth && parseFloat(el.style.fontSize) > 14) {
-          el.style.fontSize = (parseFloat(el.style.fontSize) - 1) + 'px';
-        }
+      // Account for translateX(xShift) and right-padding (22px) — text is
+      // right-aligned, so the visible area to the left of its right edge is
+      // container width + xShift (negative) − padding.
+      const maxWidth = wheelContainer.clientWidth + xShift - 22 - 8;
+      let fontSize = CENTER_FONT_MAX;
+      while (fontSize > CENTER_FONT_MIN && measureTitleWidth(song.title, fontSize) > maxWidth) {
+        fontSize--;
       }
+      el.style.fontSize = fontSize + 'px';
     } else {
       el.style.fontSize = '';
     }

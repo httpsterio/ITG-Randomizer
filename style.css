@@ -262,33 +262,85 @@ html, body {
 
 /* ── Randomize button ── */
 #randomize-btn {
-  width: 100%;
-  height: 64px;
-  border: none;
-  background: linear-gradient(180deg, #2255cc 0%, #1133aa 100%);
+  width: calc(100% - 24px);
+  margin: 6px 12px 14px;
+  height: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
   color: #fff;
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 3px;
   cursor: pointer;
-  transition: background 0.15s, transform 0.1s;
   touch-action: manipulation;
   flex-shrink: 0;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.75);
+  background:
+    linear-gradient(180deg,
+      rgba(255, 255, 255, 0.35) 0%,
+      rgba(255, 255, 255, 0.08) 48%,
+      rgba(0, 0, 0, 0.22) 52%,
+      rgba(255, 255, 255, 0.12) 100%),
+    linear-gradient(180deg, #3a7bd0 0%, #1a3f8a 50%, #265eb0 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.45),
+    inset 0 0 0 1px rgba(120, 180, 255, 0.22),
+    0 2px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.1s;
+}
+
+@media (hover: hover) {
+  #randomize-btn:not(:disabled):hover {
+    background:
+      linear-gradient(180deg,
+        rgba(255, 255, 255, 0.45) 0%,
+        rgba(255, 255, 255, 0.10) 48%,
+        rgba(0, 0, 0, 0.22) 52%,
+        rgba(255, 255, 255, 0.14) 100%),
+      linear-gradient(180deg, #ffb050 0%, #b04400 50%, #db6c1c 100%);
+    box-shadow:
+      inset 0 1px 0 rgba(255, 230, 180, 0.75),
+      inset 0 -1px 0 rgba(0, 0, 0, 0.45),
+      inset 0 0 0 1px rgba(255, 200, 120, 0.5),
+      0 0 18px rgba(255, 160, 60, 0.55),
+      0 2px 8px rgba(0, 0, 0, 0.5);
+  }
 }
 
 #randomize-btn:not(:disabled):active {
-  background: linear-gradient(180deg, #3366ee 0%, #1a44cc 100%);
+  background:
+    linear-gradient(180deg,
+      rgba(255, 255, 255, 0.45) 0%,
+      rgba(255, 255, 255, 0.10) 48%,
+      rgba(0, 0, 0, 0.22) 52%,
+      rgba(255, 255, 255, 0.14) 100%),
+    linear-gradient(180deg, #ffb050 0%, #b04400 50%, #db6c1c 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 230, 180, 0.75),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.45),
+    inset 0 0 0 1px rgba(255, 200, 120, 0.5),
+    0 0 22px rgba(255, 170, 70, 0.7),
+    0 2px 8px rgba(0, 0, 0, 0.5);
   transform: scale(0.98);
 }
 
 #randomize-btn:disabled {
-  opacity: 0.4;
+  opacity: 0.45;
   cursor: not-allowed;
 }
 
 #randomize-btn.spinning {
-  background: linear-gradient(180deg, #1a1a2e 0%, #12122a 100%);
+  background:
+    linear-gradient(180deg,
+      rgba(255, 255, 255, 0.10) 0%,
+      rgba(0, 0, 0, 0.25) 100%),
+    linear-gradient(180deg, #1a1a2e 0%, #0e0e22 100%);
   cursor: not-allowed;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.45),
+    0 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 /* ── Empty pool error ── */
