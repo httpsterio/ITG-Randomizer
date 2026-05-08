@@ -160,12 +160,14 @@ function renderWheel() {
   const half = Math.floor(N / 2);
   const len = pool.length;
   const baseIdx = Math.floor(wheelPos);
-  // Sub-slot offset — every slot's top shifts by this much so the whole
-  // strip slides continuously between integer positions instead of snapping.
-  const fracShift = (wheelPos - baseIdx) * WHEEL_CONFIG.slotHeight;
+  const frac = wheelPos - baseIdx;
 
   for (let i = 0; i < N; i++) {
     const d = i - half;
+    // Continuous offset — drive geometry from this so slots travel through
+    // real slotY-space (which is non-linear) and there's no snap when
+    // baseIdx ticks over. Content lookup still uses the integer d.
+    const dCont = d - frac;
     const el = slotEls[i];
 
     if (len === 0) {
@@ -176,15 +178,15 @@ function renderWheel() {
 
     const poolIdx = ((baseIdx + d) % len + len) % len;
     const song = pool[poolIdx];
-    const y = slotY(trackHeight, d);
-    const absd = Math.abs(d);
+    const y = slotY(trackHeight, dCont);
+    const absd = Math.abs(dCont);
     const scale = Math.max(0.2, 1 - absd * 0.17);
     const opacity = Math.max(0, 1 - absd * 0.2);
     // Power arc: steep drop from center so neighbours quickly veer right
     const xShift = Math.pow(Math.max(0, 1 - absd / half), 2.5) * -75;
 
     el.textContent = song.title;
-    el.style.top = `${centerY + y - WHEEL_CONFIG.slotHeight / 2 - fracShift}px`;
+    el.style.top = `${centerY + y - WHEEL_CONFIG.slotHeight / 2}px`;
     el.style.height = `${WHEEL_CONFIG.slotHeight}px`;
     el.style.transform = `translateX(${xShift}px) scaleX(${scale}) scaleY(${scale})`;
     el.style.opacity = opacity;
