@@ -8,8 +8,6 @@ const WHEEL_CONFIG = {
   slotHeight: 34,      // px, matches highlight-band height
 };
 
-const DIFF_NAMES = { Beginner: 'Novice', Easy: 'Easy', Medium: 'Medium', Hard: 'Hard', Challenge: 'Expert' };
-const mapDiff = name => DIFF_NAMES[name] ?? name;
 const ENERGIZER_TITLE = 'Energizer';
 
 // ── State ──
@@ -61,7 +59,7 @@ async function init() {
   window._energizerArr = energizerArr;
 
   energizerSong = songs.find(s => s.title === ENERGIZER_TITLE) || null;
-  energizerRatings = energizerSong ? energizerSong.difficulties.map(d => d.rating) : [];
+  energizerRatings = energizerSong ? Object.values(energizerSong.difficulties) : [];
 
   rebuildPool();
   buildSlotElements();
@@ -102,7 +100,7 @@ function playSound(buf) {
 
 // ── Pool ──
 function rebuildPool() {
-  const filtered = songs.filter(s => s.difficulties.some(d => d.rating >= minDiff && d.rating <= maxDiff));
+  const filtered = songs.filter(s => Object.values(s.difficulties).some(r => r >= minDiff && r <= maxDiff));
 
   const energizerInRange = energizerRatings.some(r => r >= minDiff && r <= maxDiff);
   if (redTheme && energizerSong && energizerInRange) {
@@ -267,7 +265,9 @@ async function startSpin() {
   const endInt = startInt + totalSlots;
   const targetIdx = ((endInt % pool.length) + pool.length) % pool.length;
   const targetSong = pool[targetIdx];
-  const eligible = targetSong.difficulties.filter(d => d.rating >= minDiff && d.rating <= maxDiff);
+  const eligible = Object.entries(targetSong.difficulties)
+    .filter(([, rating]) => rating >= minDiff && rating <= maxDiff)
+    .map(([name, rating]) => ({ name, rating }));
   const targetDiff = eligible[Math.floor(Math.random() * eligible.length)];
 
   hideResult();
@@ -310,7 +310,7 @@ function onLand(song, diff) {
   highlightBand.classList.add('flash');
 
   resultTitle.textContent = song.title;
-  resultDiff.textContent = `${mapDiff(diff.name)}  ·  ${diff.rating}`;
+  resultDiff.textContent = `${diff.name}  ·  ${diff.rating}`;
   resultTitle.classList.remove('error');
   resultTitle.classList.add('visible');
   resultDiff.classList.add('visible');
