@@ -90,6 +90,35 @@ html, body {
   color: var(--toggle-color-hover);
 }
 
+.update-btn {
+  position: fixed;
+  top: 4px;
+  right: 8px;
+  background: transparent;
+  border: 1px solid var(--toggle-color);
+  border-radius: 12px;
+  color: var(--toggle-color);
+  font-family: inherit;
+  font-size: 10px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 4px 10px;
+  z-index: 50;
+  touch-action: manipulation;
+  transition: color 0.15s, border-color 0.15s, opacity 0.15s;
+}
+
+.update-btn:hover {
+  color: var(--toggle-color-hover);
+  border-color: var(--toggle-color-hover);
+}
+
+.update-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
 /* ── Loading ── */
 #loading {
   display: flex;

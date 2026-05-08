@@ -11,6 +11,7 @@
 <body>
   <div id="app">
     <button id="theme-toggle" class="theme-toggle" type="button">Energizer?</button>
+    <button id="update-btn" class="update-btn hidden" type="button">Update available · reload</button>
     <div id="loading">
       <div class="loading-spinner"></div>
       <div class="loading-text">Loading...</div>
@@ -57,7 +58,39 @@
   <script src="app.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js');
+      const updateBtn = document.getElementById('update-btn');
+      let reloading = false;
+
+      function offerUpdate(worker) {
+        updateBtn.classList.remove('hidden');
+        updateBtn.onclick = () => {
+          updateBtn.disabled = true;
+          worker.postMessage('skipWaiting');
+        };
+      }
+
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (reloading) return;
+        reloading = true;
+        location.reload();
+      });
+
+      navigator.serviceWorker.register('sw.js').then(reg => {
+        // Already-waiting worker from a previous visit (only an update if
+        // there's an active controller — otherwise it's the first install).
+        if (reg.waiting && navigator.serviceWorker.controller) {
+          offerUpdate(reg.waiting);
+        }
+        reg.addEventListener('updatefound', () => {
+          const nw = reg.installing;
+          if (!nw) return;
+          nw.addEventListener('statechange', () => {
+            if (nw.state === 'installed' && navigator.serviceWorker.controller) {
+              offerUpdate(nw);
+            }
+          });
+        });
+      }).catch(() => {});
     }
   </script>
 </body>

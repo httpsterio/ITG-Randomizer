@@ -1,4 +1,4 @@
-const CACHE = 'itg-picker-v5';
+const CACHE = 'itg-picker-v6';
 const REQUIRED = [
   './',
   './index.html',
@@ -18,8 +18,12 @@ self.addEventListener('install', e => {
     const cache = await caches.open(CACHE);
     await cache.addAll(REQUIRED);
     await Promise.all(OPTIONAL.map(url => cache.add(url).catch(() => {})));
-    self.skipWaiting();
   })());
+});
+
+// Page asks us to take over once the user opts into the update.
+self.addEventListener('message', e => {
+  if (e.data === 'skipWaiting') self.skipWaiting();
 });
 
 self.addEventListener('activate', e => {

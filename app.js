@@ -28,7 +28,7 @@ let wheelPos = 0;
 let spinning = false;
 let animId = null;
 let spinPath = null;
-let spinFrame = 0;
+let spinStartTs = 0;
 let lastTickPos = 0;
 let lastTickTime = 0;
 
@@ -159,6 +159,10 @@ function renderWheel() {
   const centerY = trackHeight / 2;
   const half = Math.floor(N / 2);
   const len = pool.length;
+  const baseIdx = Math.floor(wheelPos);
+  // Sub-slot offset — every slot's top shifts by this much so the whole
+  // strip slides continuously between integer positions instead of snapping.
+  const fracShift = (wheelPos - baseIdx) * WHEEL_CONFIG.slotHeight;
 
   for (let i = 0; i < N; i++) {
     const d = i - half;
@@ -170,7 +174,7 @@ function renderWheel() {
       continue;
     }
 
-    const poolIdx = ((Math.round(wheelPos) + d) % len + len) % len;
+    const poolIdx = ((baseIdx + d) % len + len) % len;
     const song = pool[poolIdx];
     const y = slotY(trackHeight, d);
     const absd = Math.abs(d);
@@ -180,7 +184,7 @@ function renderWheel() {
     const xShift = Math.pow(Math.max(0, 1 - absd / half), 2.5) * -75;
 
     el.textContent = song.title;
-    el.style.top = `${centerY + y - WHEEL_CONFIG.slotHeight / 2}px`;
+    el.style.top = `${centerY + y - WHEEL_CONFIG.slotHeight / 2 - fracShift}px`;
     el.style.height = `${WHEEL_CONFIG.slotHeight}px`;
     el.style.transform = `translateX(${xShift}px) scaleX(${scale}) scaleY(${scale})`;
     el.style.opacity = opacity;
@@ -276,21 +280,28 @@ async function startSpin() {
   randomizeBtn.disabled = true;
 
   spinPath = buildSpinPath(wheelPos, endInt);
-  spinFrame = 0;
+  spinStartTs = 0;
   lastTickPos = wheelPos;
   lastTickTime = 0;
 
+  // Path was sampled at 60 Hz; drive playback by elapsed wall time so the
+  // spin lasts the same duration regardless of display refresh rate.
+  const lastIdx = spinPath.length - 1;
+
   function frame(ts) {
-    if (spinFrame >= spinPath.length - 1) {
+    if (spinStartTs === 0) spinStartTs = ts;
+    const sampleIdx = ((ts - spinStartTs) / 1000) * 60;
+    if (sampleIdx >= lastIdx) {
       wheelPos = endInt;
       renderWheel();
       onLand(targetSong, targetDiff);
       return;
     }
-    wheelPos = spinPath[spinFrame];
+    const i0 = Math.floor(sampleIdx);
+    const f = sampleIdx - i0;
+    wheelPos = spinPath[i0] * (1 - f) + spinPath[i0 + 1] * f;
     scheduleTick(wheelPos, ts);
     renderWheel();
-    spinFrame++;
     animId = requestAnimationFrame(frame);
   }
 
