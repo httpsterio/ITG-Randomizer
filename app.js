@@ -30,9 +30,10 @@ let lastTickPos = 0;
 let lastTickTime = 0;
 
 // ── DOM ──
-const loadingEl   = document.getElementById('loading');
-const mainEl      = document.getElementById('main');
-const slotsEl     = document.getElementById('wheel-slots');
+const loadingEl      = document.getElementById('loading');
+const mainEl         = document.getElementById('main');
+const wheelContainer = document.getElementById('wheel-container');
+const slotsEl        = document.getElementById('wheel-slots');
 const highlightBand = document.getElementById('highlight-band');
 const resultTitle = document.getElementById('result-title');
 const resultDiff  = document.getElementById('result-diff');
@@ -142,6 +143,17 @@ function renderWheel() {
     el.style.opacity = opacity;
     el.classList.toggle('center-slot', d === 0);
 
+    if (d === 0) {
+      const maxWidth = wheelContainer.clientWidth - 44;
+      el.style.fontSize = '32px';
+      if (el.scrollWidth > maxWidth) {
+        while (el.scrollWidth > maxWidth && parseFloat(el.style.fontSize) > 14) {
+          el.style.fontSize = (parseFloat(el.style.fontSize) - 1) + 'px';
+        }
+      }
+    } else {
+      el.style.fontSize = '';
+    }
   }
 }
 

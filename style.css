@@ -152,7 +152,6 @@ html, body {
   color: #fff;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
   padding: 0 22px 0 0;
   line-height: 34px;
   transform-origin: right center;
@@ -162,7 +161,6 @@ html, body {
 }
 
 .wheel-slot.center-slot {
-  font-size: 32px;
   text-shadow: 0 0 14px rgba(180,220,255,0.7), 0 1px 3px rgba(0,0,0,0.9);
 }
 
