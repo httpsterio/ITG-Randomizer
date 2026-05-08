@@ -1,4 +1,4 @@
-const CACHE = 'itg-picker-v6';
+const CACHE = 'itg-picker-v7';
 const REQUIRED = [
   './',
   './index.html',
