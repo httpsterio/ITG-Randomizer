@@ -208,7 +208,7 @@ html, body {
   left: 0; right: 0;
   top: 50%;
   transform: translateY(-50%);
-  height: 34px;
+  height: 46px;
   background: linear-gradient(90deg,
     transparent 0%,
     var(--band-edge) 30%,

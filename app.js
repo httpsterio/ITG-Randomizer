@@ -182,13 +182,18 @@ function renderWheel() {
     const absd = Math.abs(dCont);
     const scale = Math.max(0.2, 1 - absd * 0.17);
     const opacity = Math.max(0, 1 - absd * 0.2);
-    // Power arc: steep drop from center so neighbours quickly veer right
-    const xShift = Math.pow(Math.max(0, 1 - absd / half), 2.5) * -75;
+    // Cosine sweep: deepest pull-in at center, smoothly arcing back out
+    // and slightly past the right edge at the outer visible slots so the
+    // silhouette reads as round instead of <-shaped.
+    const xT = Math.min(absd / 4, 1);
+    const xShift = -75 + 52.5 * (1 - Math.cos(xT * Math.PI));
+    // Items above center lean / and below lean \, escalating with distance.
+    const skewDeg = dCont * 4;
 
     el.textContent = song.title;
     el.style.top = `${centerY + y - WHEEL_CONFIG.slotHeight / 2}px`;
     el.style.height = `${WHEEL_CONFIG.slotHeight}px`;
-    el.style.transform = `translateX(${xShift}px) scaleX(${scale}) scaleY(${scale})`;
+    el.style.transform = `translateX(${xShift}px) skewX(${skewDeg}deg) scaleX(${scale}) scaleY(${scale})`;
     el.style.opacity = opacity;
     el.classList.toggle('center-slot', d === 0);
 
