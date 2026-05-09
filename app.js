@@ -182,11 +182,14 @@ function renderWheel() {
     const absd = Math.abs(dCont);
     const scale = Math.max(0.2, 1 - absd * 0.17);
     const opacity = Math.max(0, 1 - absd * 0.2);
-    // Cosine sweep: deepest pull-in at center, smoothly arcing back out
-    // and slightly past the right edge at the outer visible slots so the
-    // silhouette reads as round instead of <-shaped.
+    // Cylinder cross-section: x = R·(1 − cos θ), θ mapped so absd=4 lands
+    // at θ=π/2 (the side of the cylinder, edge-on). This gives the right
+    // tangent behaviour — vertical at the center where the surface faces
+    // the camera, horizontal at the edges where it curves away — and the
+    // outer slots fall well past the right edge so the rotation reads as
+    // a real cylinder instead of a wave.
     const xT = Math.min(absd / 4, 1);
-    const xShift = -75 + 52.5 * (1 - Math.cos(xT * Math.PI));
+    const xShift = -75 + 150 * (1 - Math.cos(xT * Math.PI / 2));
     // Items above center lean / and below lean \, escalating with distance.
     const skewDeg = dCont * 4;
 
